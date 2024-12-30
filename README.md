@@ -1,17 +1,47 @@
-#
-This app is like a story where you get to make choices. The story changes based on the choices you make, kind of like a "Choose Your Own Adventure" book
+# 🌍 Yuba's Journey - A Flutter Interactive Story App
 
-Yuba is torn between two paths: accepting a university offer abroad or taking a local job to support his family.
-If he goes abroad, he faces loneliness and pressure but achieves financial success. 
-If he stays home, he struggles with lower pay, watching his friends thrive elsewhere. 
-As he invests in the family business, progress is slow, and he questions if he made the right choice. 
-Eventually, if he returns abroad, the financial success feels hollow as he grows disconnected from his family. 
-The story explores the emotional weight of choosing between personal ambition and family responsibility.
+**Yuba's Journey** is an interactive Flutter app inspired by *Choose Your Own Adventure* books. Follow Yuba, a young man torn between staying in his homeland to support his family or seeking opportunities abroad. Each decision leads to unique consequences, reflecting the real-world struggles of ambition, sacrifice, and family responsibility.
+
+## 🚀 Features
+- **Interactive Story** – Make choices that shape Yuba's future.
+- **Multiple Endings** – Experience different paths based on your decisions.
+- **Emotional Narrative** – Explore themes of ambition, sacrifice, and belonging.
+
+## 📖 Story Overview
+Yuba stands at a crossroads:  
+- **Accept an offer abroad** – Face loneliness and pressure but gain financial success.  
+- **Stay home** – Support his family but struggle with low pay and regret.  
+
+Every decision leads to new chapters, and each path carries emotional and practical consequences.
+
+
+## 🧩 Project Structure
+```plaintext
+/lib
+  ├── main.dart           # App entry point
+  ├── story.dart          # Story model class
+  ├── story_brain.dart    # Story logic and progression
+/assets
+  └── images              # Background images
+/pubspec.yaml             # Flutter dependencies
+```
+
+
+
+*Crafted with Flutter by [Ez Abyss](https://github.com/ezabyss)*
+*Story : Chatgpt*
+
+## 🎨 Screenshots
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f5e2fddf-9a7d-481d-acc4-d365fc3eef2f" width="400">
+  <img src="https://github.com/user-attachments/assets/1c22c884-d999-4ab7-a56d-f4f45350d42b" width="400">
+</div>
 
 
 
 
 
 
-### All The reference during this project
+
+### reference during this project
 - add background image: https://stackoverflow.com/questions/44179889/how-do-i-set-background-image-in-
